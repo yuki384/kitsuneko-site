@@ -5,6 +5,12 @@ body{
 *{
   box-sizing: border-box;
 }
+section{
+  border-top: 2px #39acff solid;
+  margin: 48px auto;
+  width: 90vw;
+  max-width: 1000px;
+}
 .button{
   background-color: #ffcd36;
   border-radius: 24px;
