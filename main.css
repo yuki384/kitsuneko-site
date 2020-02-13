@@ -66,3 +66,22 @@ section p{
   display: table-cell;
   vertical-align: middle;
 }
+.list-name{
+  display: inline-block;
+  width: 420px;
+}
+.list-prace{
+}
+.book-list{
+  text-align: left;
+  width: 90vw;
+  max-width: 600px;
+  margin: auto;
+}
+.book-list li a{
+  text-decoration: none;
+  color: #000;
+}
+.book-list li a:hover{
+  font-weight: 700;
+}
