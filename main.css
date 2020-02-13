@@ -2,3 +2,22 @@ body{
   text-align: center;
   margin:0;
 }
+*{
+  box-sizing: border-box;
+}
+.top{
+  background-color: rgb(57, 172, 255);
+  color: #fff;
+  display: table;
+  font-family: "Nico Moji";
+  height: 20vh;
+  min-height: 240px;
+  padding: 48px;
+  width: 100%;
+}
+.top h1{
+  margin: 0;
+  font-size: 4em;
+  display: table-cell;
+  vertical-align: middle;
+}
