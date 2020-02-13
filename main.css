@@ -12,6 +12,16 @@ section{
   margin: 48px auto;
   width: 90vw;
   max-width: 1000px;
+  overflow: auto;
+}
+section::before{
+  content: '';
+  display: block;
+  clear: both;
+}
+section p{
+  width: 80%;
+  margin: auto;
 }
 .book{
   float: left;
