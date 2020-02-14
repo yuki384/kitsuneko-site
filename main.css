@@ -21,7 +21,7 @@ section::before{
 }
 section p{
   width: 80%;
-  margin: auto;
+  margin: 24px auto;
 }
 .book{
   float: left;
@@ -47,7 +47,7 @@ section p{
   text-decoration: none;
   box-shadow: 0 2px 6px 3px rgba(255, 182, 84, 0.2);
 }
-.button:hover{
+.button:hover, .sns-link:hover{
   background-color: rgba(255, 211, 25, 0.5);
 }
 .top{
@@ -84,4 +84,15 @@ section p{
 }
 .book-list li a:hover{
   font-weight: 700;
+}
+
+.sns-link{
+  background-color: #ffcd36;
+  padding: 8px 12px;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 2px 6px 3px rgba(255, 182, 84, 0.2);
+  border-radius: 4px;
+  transition: all .3s;
 }
