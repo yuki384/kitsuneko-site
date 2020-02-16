@@ -22,6 +22,7 @@ section::before{
 section p{
   width: 80%;
   margin: 24px auto;
+  text-align: left;
 }
 .book{
   float: left;
